@@ -1,8 +1,4 @@
-const parse = require('./lib/parse');
-const stringify = require('./lib/stringify');
+const parseJSON = require('./lib/parse');
+const stringifyJSON = require('./lib/stringify');
 
-const JSON = {};
-JSON.parse = parse;
-JSON.stringify = stringify;
-
-module.exports = JSON;
+module.exports = { parseJSON, stringifyJSON };
