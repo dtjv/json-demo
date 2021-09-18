@@ -20,7 +20,7 @@ exports.parseableStrings = [
 
   // escaping
   '["\\\\\\"\\"a\\""]',
-  '["and you can\'t escape thi\s"]',
+  '["and you can\'t escape this"]',
 
   // everything all at once
   '{"CoreletAPIVersion":2,"CoreletType":"standalone",' +
@@ -81,12 +81,9 @@ exports.parseableStrings = [
     '              }\r\n' +
     '          }\r\n' +
     '      }\r\n',
-];
+]
 
-exports.unparseableStrings = [
-  '["foo", "bar"',
-  '["foo", "bar\\"]',
-];
+exports.unparseableStrings = ['["foo", "bar"', '["foo", "bar\\"]']
 
 exports.stringifiableObjects = [
   9,
@@ -111,7 +108,7 @@ exports.stringifiableObjects = [
   { a: ['b', 'c'] },
   [{ a: 'b' }, { c: 'd' }],
   { a: [], c: {}, b: true },
-];
+]
 
 // used for stringifyJSON spec
 // hint: JSON does not allow you to stringify functions or
@@ -121,4 +118,4 @@ exports.unstringifiableValues = [
     functions: () => {},
     undefined,
   },
-];
+]
