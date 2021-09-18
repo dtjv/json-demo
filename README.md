@@ -1,11 +1,16 @@
-# JSON
-[![travis build](https://img.shields.io/travis/dtjv/json.svg?style=flat-square)](https://travis-ci.org/dtjv/json)
-[![codecov coverage](https://img.shields.io/codecov/c/github/dtjv/json.svg?style=flat-square)](https://codecov.io/github/dtjv/json)
-[![mit license](https://img.shields.io/npm/l/json.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+# json-demo
 
-An implementation of `JSON.parse()` and `JSON.stringify()`. 😉 
+A coding exercise that implements `JSON.parse()` and `JSON.stringify()`. _(Just
+for fun 😉)_.
+
+## Todo
+
+- [ ] improve test coverage for `parse` utility.
+
+## Author
+
+- [David Valles](https://dtjv.io)
 
 ## License
 
-MIT © David Valles
-
+[MIT License](LICENSE)
