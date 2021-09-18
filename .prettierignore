@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+
+# test output
+coverage
+.nyc_output
+
+# env files
+.env
+
+# lock files
+yarn.lock
+package-lock.json
+
+# project files
+versions
+
+# misc
+*.pem
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
